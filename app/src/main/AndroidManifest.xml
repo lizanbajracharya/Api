@@ -12,16 +12,18 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
-        <activity android:name=".RegisterActivity"></activity>
-        <activity android:name=".DashboardActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+        <activity android:name=".DashActivity"><intent-filter>
+            <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter></activity>
+        <activity android:name=".UpdateActivity" />
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".DashboardActivity">
+
         </activity>
-        <activity android:name=".SearchActivity"></activity>
-        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".SearchActivity" />
+        <activity android:name=".MainActivity" />
     </application>
 
 </manifest>
